@@ -27,14 +27,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    height: 100px;
-    margin-bottom: 80px;
-    border-bottom: 3px solid rgb(46, 44, 44,0.5);
-     padding-top: 20px;
-    
+    margin-top:25px;
+    height: 125px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid rgba(171, 169, 169, 0.5);
+     padding-top: 50px;
   }
-  
+
   .navbar .navbarl {
     height: 100%;
     width: 47%;
@@ -61,7 +60,7 @@
   
   .navbar2 button {
     width: 100px;
-    height: 38px;
+    height: 45px;
   
     border-radius: 6px;
     cursor: pointer;
@@ -76,13 +75,15 @@
     cursor: pointer;
     border-radius: 8px;
     margin-right: 8px;
-    border: 1px solid black;
+    border: 1px solid rgb(62, 59, 59);
+    font-size: 16px;
   }
   
-  .su {
+  .navbar2 .su {
     background-color: #4cd964;
     cursor: pointer;
     border-radius: 8px;
+    font-size: 16px;
   }
 
 
@@ -99,16 +100,16 @@
     margin
   }
   #about{
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
   }
   #contact{
-    font-size:15px;
-    font-weight: 600;
+    font-size:20px;
+    font-weight: 400;
   }
   #explore{
-    font-size:15px;
-    font-weight: 600;
+    font-size:20px;
+    font-weight: 400;
   }
 
   
@@ -127,7 +128,7 @@
   }
 
   .cont2 .head h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     
    
@@ -141,6 +142,25 @@
     gap:240px;
 
   }
+  #name{
+    font-size: 23px;
+    /* margin-top: 10px; */
+  }
+
+  #mail{
+    font-size: 23px;
+    margin-top: 15px;
+  }
+
+  #subject{
+    font-size: 23px;
+    margin-top: 15px;
+  }
+  #message{
+    font-size: 23px;
+    margin-top: 15px;
+  }
+
   .cont2 .img{
    
     width: 80%;
@@ -154,7 +174,7 @@ input[type=text],  textarea {
   width: 100%; 
   height: 50px;
   padding: 12px; 
-  border: 2px solid rgb(62, 61, 61,0.5); 
+  border: 2px solid rgba(172, 167, 167, 0.5); 
   border-radius: 4px; 
   box-sizing: border-box; 
   margin-top: 6px; 
@@ -162,20 +182,23 @@ input[type=text],  textarea {
   resize: vertical 
 }
 
+.sub{
+  margin-top: 60px;
+}
 
 input[type=button] {
   width:100%;
-  background-color:rgba(147, 143, 143, 0.5);
-  color: black;
+  background-color:white;
+  color: rgb(187, 168, 168);
   padding: 12px 20px;
-  border: none;
+  border: 1px solid gray;
   border-radius: 6px;
   cursor: pointer;
 }
 
 
 input[type=button]:hover {
-  background-color: #45a049;
+  background-color: #6bed74;
 }
 
 
